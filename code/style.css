@@ -1,0 +1,49 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.names-container {
+  display: flex;
+  text-align: center;
+}
+
+.names-container p {
+  width: 50%;
+}
+
+.times-container {
+  display: flex;
+  text-align: center;
+}
+
+.times-container p {
+  width: 50%;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.player-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+button {
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.start-button {
+  background-color: green;
+}
+
+.stop-button {
+  background-color: red;
+}
